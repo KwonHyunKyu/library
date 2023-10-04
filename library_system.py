@@ -6,7 +6,7 @@ app = Flask(__name__)
 members = {}
 books = {}
 
-@app.route('/')
+@app.route('/') 
 def admin():
     return render_template('admin.html', members=members, books=books)
 
