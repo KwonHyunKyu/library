@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
-
-# 초기 멤버와 책 데이터 설정
+ 
+# 초기 멤버와 책 데이터 설정   
 members = {}
 books = {}
 
