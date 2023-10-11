@@ -1,0 +1,11 @@
+# 현재 연도 입력
+current_year = int(input("현재 연도를 입력하세요: "))
+
+# 출생 연도 입력
+birth_year = int(input("출생 연도를 입력하세요: "))
+
+# 만나이 계산
+korean_age = current_year - birth_year
+
+# 결과 출력
+print("당신의 만나이는 {}세 입니다.".format(korean_age))
