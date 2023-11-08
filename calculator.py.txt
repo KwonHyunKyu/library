@@ -12,7 +12,7 @@ if operator == '+':
 elif operator == '-':
     result = num1 - num2
     print("뺄셈 결과:", result)
-elif operator == '*':
+elif operator == '*':fewfewfwfewfwef
     result = num1 * num2
     print("곱셈 결과:", result)
 elif operator == '/':
