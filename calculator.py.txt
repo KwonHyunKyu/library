@@ -15,7 +15,7 @@ elif operator == '-':
 elif operator == '*':
     result = num1 * num2
     print("곱셈 결과:", result)
-elif operator == '/':
+elif operator == '/':ffewwfef
     if num2 == 0:
         print("0으로 나눌 수 없습니다.")
     else:
